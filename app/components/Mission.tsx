@@ -49,16 +49,15 @@ const Mission = () => {
           <div className="relative flex justify-center md:justify-end mt-10 md:mt-0">
             
             {/* 1. Ellipse (Pink Background Circle) - HIDDEN on Mobile */}
-            <div className="hidden md:block absolute top-[-30px] left-[-60px] md:left-[-20px] -z-10">
-                <Image 
-                    src={ellipse} 
-                    alt="Background Decoration" 
-                    width={100}
-                    height={100}
-                    className="opacity-80"
-                />
-            </div>
-            
+        <div className="hidden md:block absolute top-[-30px] md:left-[79px] -z-10">
+    <Image 
+        src={ellipse} 
+        alt="Background Decoration" 
+        width={100}
+        height={100}
+        className="opacity-80"
+    />
+</div>
             {/* 2. Subtract (Top Right Pattern) - HIDDEN on Mobile */}
             <div className="hidden md:block absolute -top-10 -right-5 z-0">
                 <Image 
