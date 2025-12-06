@@ -30,18 +30,18 @@ const DonationSection = () => {
           />
         </div>
         {/* --- Left Content Section --- */}
-        <div className="flex-1 p-8 md:p-12 lg:p-16 flex flex-col justify-center relative z-10">
-          <h2 className="text-white text-[22px] md:text-5xl lg:text-[41px] text-center md:text-left font-bold leading-8 md:leading-[1.1] mb-6 tracking-wide">
+        <div className="flex-1 px-2 py-8 md:px-12 md:py-12 lg:p-16 flex flex-col justify-center relative z-10">
+          <h2 className="text-white text-[20px] md:text-5xl lg:text-[41px] text-center md:text-left font-bold leading-8 md:leading-[1.1] mb-6 tracking-wide">
             Change Lives, One  Donation at a Time.
           </h2>
 
-          <p className="text-white/90 text-lg md:text-xl text-[15px] text-center md:text-left leading-relaxed mb-10 max-w-lg font-medium">
+          <p className="text-white/90 text-lg md:text-xl text-[12px] text-center md:text-left leading-relaxed mb-10 max-w-lg font-medium">
             Your donation helps empower underprivileged individuals with the
             skills and opportunities needed for a brighter future.
           </p>
 
           <div className="flex justify-center md:block items-center" >
-            <button className="bg-white text-[#E31E5D]  text-lg font-medium py-4 px-10 rounded-[50px] shadow-md ">
+            <button className="bg-white text-[#E31E5D]  text-[16px] md:text-lg font-medium py-4 px-10 rounded-[50px] shadow-md ">
               Donate Now
             </button>
           </div>

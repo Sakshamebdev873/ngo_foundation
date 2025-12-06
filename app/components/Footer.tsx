@@ -29,7 +29,7 @@ const Footer:React.FC = () => {
                 <h3 className="text-[#F998BB] foot_1 font-bold text-[20px]">
                   Core Values
                 </h3>
-                <p className="text-gray-300 foot_1 leading-relaxed text-[16px] md:text-base">
+                <p className="text-gray-300 foot_1 leading-6 text-[12px] md:text-[16px] md:text-base">
                   At Charity 128, we prioritize transparency, integrity, and
                   inclusivity. These values guide our actions as we work
                   tirelessly to bridge the gap between those in need and those
@@ -69,7 +69,7 @@ const Footer:React.FC = () => {
 
             {/* 2. Middle Column (Useful Links) - UPDATED FOR MOBILE GRID */}
             <div className="lg:col-span-3 lg:pl-8">
-              <h3 className="text-[#F998BB] foot_1 text-[16px] font-semibold mb-8">
+              <h3 className="text-[#F998BB] foot_1 text-[20px] md:text-[16px] font-semibold mb-8">
                 Useful links
               </h3>
               
@@ -80,7 +80,7 @@ const Footer:React.FC = () => {
                   - grid-flow-col: Fills vertically first (Left col fills 1,2,3 then Right col 4,5)
                   - lg:block: Resets to standard block list on Desktop
               */}
-              <ul className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-x-4 gap-y-4 lg:block lg:space-y-6 lg:gap-0 font-normal text-[#FFFFFF]">
+              <ul className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-x-4 text-[12px] md:text-[16px] gap-y-4 lg:block lg:space-y-6 lg:gap-0 font-normal text-[#FFFFFF]">
                 <li>
                   <Link href="#" className="hover:text-[#D62062] transition-colors">Home</Link>
                 </li>
@@ -101,21 +101,21 @@ const Footer:React.FC = () => {
 
             {/* 3. Right Column (Contacts) */}
             <div className="lg:col-span-4">
-              <h3 className="text-[#F998BB] foot_1 font-semibold text-xl mb-8">
+              <h3 className="text-[#F998BB] foot_1 font-semibold text-[20px] md:text-xl mb-8">
                 Our contacts
               </h3>
 
-              <ul className="space-y-6 text-[16px] font-normal text-gray-300 mb-10">
+              <ul className="space-y-6 text-[12px] md:text-[16px] font-normal text-gray-300 mb-10">
                 <li className="flex items-start">
-                  <Mail className="w-5 h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
+                  <Mail className=" w-3 h-3 md:w-5 md:h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
                   <span>information@office.com</span>
                 </li>
                 <li className="flex items-start">
-                  <Phone className="w-5 h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
+                  <Phone className="w-3 h-3 md:w-5 md:h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
                   <span>+ (0777) 888 88 888</span>
                 </li>
                 <li className="flex items-start">
-                  <MapPin className="w-5 h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
+                  <MapPin className="w-3 h-3 md:w-5 md:h-5 text-[#F998BB] mr-4 mt-1 shrink-0" />
                   <span>2307 Beverley, New York</span>
                 </li>
               </ul>
@@ -133,7 +133,7 @@ const Footer:React.FC = () => {
 
           {/* --- Bottom Copyright Bar --- */}
           {/* Added pb-8 to ensure content isn't cut off on mobile screens */}
-          <div className=" pt-0 md:pt-4   text-center text-white text-[16px] leading-6 flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8">
+          <div className=" pt-0 md:pt-4   text-center text-white  text-[14px] md:text-[16px] leading-6 flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8">
             <p>© Charity 128. All Rights Reserved 2025.</p>
             <Link href="#" className="text-white hover:text-[#D62062] transition-colors block">
               Licensing

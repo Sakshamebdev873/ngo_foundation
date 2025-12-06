@@ -16,27 +16,27 @@ const ExplorePrograms = () => {
       title: "Employability at 12-18",
       description: "We offer foundational skills training for youth, focusing on literacy, numeracy, and life skills to prepare them for future education and career opportunities.",
       features: [
-        "Basic education support",
-        "Career awareness and exploration",
-        "Mentorship and guidance"
+        "Feature text goes here",
+        "Feature text goes here",
+        "Feature text goes here"
       ]
     },
     {
       title: "Employability at 19-30",
       description: "We offer foundational skills training for youth, focusing on literacy, numeracy, and life skills to prepare them for future education and career opportunities.",
       features: [
-        "Basic education support",
-        "Career awareness and exploration",
-        "Mentorship and guidance"
+        "Feature text goes here",
+        "Feature text goes here",
+        "Feature text goes here"
       ]
     },
     {
       title: "Employability at 30",
       description: "We offer foundational skills training for youth, focusing on literacy, numeracy, and life skills to prepare them for future education and career opportunities.",
       features: [
-        "Basic education support",
-        "Career awareness and exploration",
-        "Mentorship and guidance"
+        "Feature text goes here",
+        "Feature text goes here",
+        "Feature text goes here"
       ]
     }
   ];
@@ -51,10 +51,10 @@ const ExplorePrograms = () => {
         
         {/* Section Header */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
-          <h3 className="text-[#D62062] font-bold text-lg md:text-xl uppercase tracking-wide mb-2">
+          <h3 className="text-[#D62062] font-bold text-[24px] md:text-[32px] uppercase tracking-wide pb-4">
             Explore Programs
           </h3>
-          <h2 className="text-[18px] md:text-4xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-[16px] mt-4 md:mt-0 md:text-[32px] font-semibold text-gray-900 leading-tight">
             Empower Your Future with Our Tailored Programs
           </h2>
         </div>
@@ -63,14 +63,14 @@ const ExplorePrograms = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
           
           {/* Left: Text Box */}
-          <div className="bg-white p-8 md:p-12 border border-pink-200 shadow-sm relative z-10 rounded-sm">
+          <div className="bg-white mx-4 md:mx-0 p-8 md:p-12 border border-pink-200 shadow-sm relative z-10 rounded-sm">
             <div className="flex items-center mb-6">
               <div className="w-6 h-6 bg-[#FF1376] mr-4 shrink-0 rounded-sm"></div>
-              <h3 className="text-2xl font-extrabold text-gray-900">
+              <h3 className="text-[16px] md:text-2xl font-bold text-gray-900">
                 Ngo Programs
               </h3>
             </div>
-            <p className="text-gray-800 text-lg leading-relaxed">
+            <p className="text-gray-800 text-[12px] pl-4 md:pl-0 [word-spacing:8px] md:text-lg leading-relaxed">
               Our tailored programs empower individuals at every
               stage of life, providing the skills and support needed
               to secure meaningful employment and build a
@@ -118,14 +118,14 @@ const ExplorePrograms = () => {
               
               {/* Card Header (Dark Pink) */}
               <div className="bg-[#D62062] py-6 px-0 md:px-4 text-center">
-                <h3 className="text-white text-xl font-bold">
+                <h3 className="text-white text-[16px] md:text-xl font-bold">
                   {card.title}
                 </h3>
               </div>
 
               {/* Card Body */}
               <div className="p-8 flex-1 flex flex-col">
-                <p className="text-gray-700 text-[16px] leading-relaxed mb-6">
+                <p className="text-gray-700 text-[12px] [word-spacing:2px] md:text-[16px] leading-relaxed mb-6">
                   {card.description}
                 </p>
 
@@ -139,14 +139,14 @@ const ExplorePrograms = () => {
                   {card.features.map((feature, i) => (
                     <li key={i} className="flex items-start">
                       <Check className="w-5 h-5 text-[#D62062] mr-3 mt-1 shrink-0" strokeWidth={3} />
-                      <span className="text-gray-800 font-medium">{feature}</span>
+                      <span className="text-gray-800 text-[12px] md:text-[16px] font-normal">{feature}</span>
                     </li>
                   ))}
                 </ul>
 
                 {/* Button */}
                 <div className="flex justify-center">
-                    <button className="bg-[#131313] text-white font-medium py-3 px-8 rounded-sm flex items-center hover:bg-gray-800 transition-colors">
+                    <button className="bg-[#131313] text-[12px] text-white font-medium py-3 px-8 rounded-sm flex items-center hover:bg-gray-800 transition-colors">
                     Learn More
                     <ChevronRight className="ml-2 w-5 h-5" />
                     </button>

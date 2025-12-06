@@ -49,10 +49,10 @@ const BecomeMember = () => {
         
         {/* Main Header */}
         <div className="text-center mb-16">
-          <h3 className="text-[#D62062] font-bold text-[28px] md:text-[32px] uppercase mb-3">
+          <h3 className="text-[#D62062] font-bold text-[20px] md:text-[32px] uppercase mb-3">
             BECOME A MEMBER
           </h3>
-          <h2 className="text-[24px] md:text-4xl font-medium text-gray-900 leading-tight">
+          <h2 className="text-[16px] md:[text-24px] md:text-4xl font-normal text-gray-900 leading-tight">
             Join us in empowering lives and shaping futures.
           </h2>
         </div>
@@ -64,7 +64,7 @@ const BecomeMember = () => {
     <div className="space-y-8 flex flex-col items-center lg:items-start">
       <div className="flex items-center self-start">
         <div className="w-6 h-6 bg-[#FF1376] mr-4 shrink-0 rounded-sm"></div>
-        <h3 className="text-[24px] font-bold text-[#131313]">
+        <h3 className="text-[16px] md:[text-24px] font-bold text-[#131313]">
           Create an Impact
         </h3>
       </div>
@@ -84,7 +84,7 @@ const BecomeMember = () => {
               <div className="bg-white rounded-full w-8 h-8 flex items-center justify-center shrink-0 mt-1 mr-4">
                 <Check className="w-5 h-5 text-[#D62062] stroke-[3px]" />
               </div>
-              <p className="text-white text-[18px] space-x-0.5 leading-[27px] font-semibold">
+              <p className="text-white text-[12px] md:text-[18px] [word-spacing:4px] space-x-0.5 leading-[27px] font-semibold">
                 {text}
               </p>
             </div>
@@ -141,7 +141,7 @@ const BecomeMember = () => {
         
         {/* FIXED: Changed h-[485px] to h-auto. Fixed height was cutting off content on mobile. */}
         <div className="grid grid-cols-1 md:grid-cols-3 w-full h-auto gap-8 px-4 -mt-12 md:mt-0 items-start">
-          <p className='block md:hidden text-center font-extrabold text-[19px] ' >Choose Your Path to <span className='text-[#D62062]' >Empowerment</span> </p>
+          <p className='block md:hidden text-center font-extrabold text-[16px] ' >Choose Your Path to <span className='text-[#D62062]' >Empowerment</span> </p>
           {pricingPlans.map((plan, index) => (
             <div 
               key={index} 
@@ -154,18 +154,18 @@ const BecomeMember = () => {
               `}
             >
               {/* Card Title & Price */}
-              <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.title}</h3>
-              <p className="text-[#D62062] text-3xl font-bold mb-6">{plan.price}</p>
+              <h3 className=" text-[16px] md:text-xl font-bold text-gray-900 mb-2">{plan.title}</h3>
+              <p className="text-[#D62062] text-[16px] md:text-3xl font-bold mb-6">{plan.price}</p>
               
               {/* Divider */}
               <div className="w-full h-px bg-[#131313] mb-6"></div>
               
-              <p className="text-gray-900 mb-4 font-medium">Includes:</p>
+              <p className="text-gray-900 mb-4 text-[12px] md:text-[16px] font-medium">Includes:</p>
 
               {/* Features List */}
               <ul className="space-y-4 mb-8 flex-1">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-center text-gray-700">
+                  <li key={i} className="flex items-center text-[12px] md:text-[16px] text-gray-700">
                     <Check className="w-5 h-5 text-[#D62062] mr-3 shrink-0" />
                     <span>{feature}</span>
                   </li>
@@ -173,7 +173,7 @@ const BecomeMember = () => {
               </ul>
 
               {/* Button */}
-              <button className="w-full bg-[#131313] text-[16px] font-semibold text-white py-3 px-4 rounded-sm flex items-center justify-center transition-colors">
+              <button className="w-full bg-[#131313] text-[12px] md:text-[16px] font-semibold text-white py-3 px-4 rounded-sm flex items-center justify-center transition-colors">
                 Become Our Member
                 <ChevronRight className="ml-2 w-5 h-5" />
               </button>

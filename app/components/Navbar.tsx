@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     <nav className="w-full h-[92px] flex items-center justify-between px-6 md:px-20 bg-white relative z-50 shadow-sm md:shadow-none">
       
       {/* --- Left Logo --- */}
-      <div className="flex flex-col items-center leading-none z-50">
+      <div className="flex space-y-1 flex-col items-center leading-none z-50">
         <p className="nav text-[20px] font-normal text-[#FF1376]">Ngo</p>
         <p className="nav_1 text-[20px] font-normal text-[#FF1376]">
           Foundation

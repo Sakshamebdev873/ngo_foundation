@@ -21,14 +21,14 @@ const Hero = () => {
           {/* TEXT SECTION */}
           {/* Changed text-center to text-left for mobile alignment */}
           <div className="flex flex-col text-left">
-            <p className="font-bold text-[20px] text-[#F998BB]">Who we are</p>
+            <p className="font-bold text-[20px] md:text-[18px] text-[#F998BB]">Who we are</p>
 
             <p className="text-white mt-2 mb-4 font-bold text-[36px] md:text-[48px] leading-tight">
               Empowering Lives Through Skill Development
             </p>
 
             {/* Removed mx-auto to prevent centering on mobile */}
-            <p className="font-normal text-white text-[16px] md:text-[18px] md:w-[470px]">
+            <p className="font-normal text-white text-[16px] md:text-[16px] md:w-[470px]">
               Transforming potential into success by providing the tools,
               resources, and training needed to thrive in today's job market.
             </p>
