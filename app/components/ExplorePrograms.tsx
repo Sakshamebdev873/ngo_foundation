@@ -31,7 +31,7 @@ const ExplorePrograms = () => {
       ]
     },
     {
-      title: "Employability at 30+",
+      title: "Employability at 30",
       description: "We offer foundational skills training for youth, focusing on literacy, numeracy, and life skills to prepare them for future education and career opportunities.",
       features: [
         "Basic education support",
@@ -54,7 +54,7 @@ const ExplorePrograms = () => {
           <h3 className="text-[#D62062] font-bold text-lg md:text-xl uppercase tracking-wide mb-2">
             Explore Programs
           </h3>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-[18px] md:text-4xl font-bold text-gray-900 leading-tight">
             Empower Your Future with Our Tailored Programs
           </h2>
         </div>
@@ -132,7 +132,7 @@ const ExplorePrograms = () => {
                 {/* Divider Line */}
                 <hr className="border-[#131313] mb-6" />
 
-                <p className="font-semibold text-gray-900 mb-4">Includes:</p>
+                <p className="font-normal text-[#131313] mb-4">Includes:</p>
 
                 {/* Features List */}
                 <ul className="space-y-4 mb-8 flex-1">
