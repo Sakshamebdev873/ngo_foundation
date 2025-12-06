@@ -2,9 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Facebook, Instagram, Send } from 'lucide-react';
 
-const Footer = () => {
+const Footer:React.FC = () => {
   return (
-    <footer className="w-full bg-white pt-12  ">
+     <>
+    <footer className="w-full pt-12  ">
       {/* Footer Container */}
       <div className="bg-[#181818] text-white rounded-t-[40px] md:rounded-t-[60px] px-6 py-12 md:px-12 md:py-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
@@ -142,6 +143,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+
+     </>
   );
 };
 
