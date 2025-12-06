@@ -92,12 +92,18 @@ const DonationSection = () => {
       </div>
       
     </section>
-    <div className="w-full min-w-full block md:hidden" >
+    <div className="w-full min-w-full overflow-hidden block md:hidden" >
         <ImageGrid/>
       </div>
     </>
   );
 };
+
+
+
+
+
+
 const ImageGrid = () => {
   return (
     <div className="w-full bg-white">

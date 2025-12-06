@@ -11,13 +11,15 @@ import Footer from './components/Footer'
 const page = () => {
   return (
     <>
-    <Navbar/>
+    <div className='w-full h-full overflow-hidden' >
+      <Navbar/>
     <Hero/>
     <Mission/>
     <ExplorePrograms/>
     <BecomeMember/>
     <DonationSection/>
     <Footer/>
+    </div>
     </>
   )
 }

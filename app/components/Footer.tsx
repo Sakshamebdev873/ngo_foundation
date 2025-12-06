@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Facebook, Instagram, Send } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white pt-12 pb-24 md:pb-0">
+    <footer className="w-full bg-white pt-12  md:pb-0">
       {/* Footer Container */}
       <div className="bg-[#181818] text-white rounded-t-[40px] md:rounded-t-[60px] px-6 py-12 md:px-12 md:py-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
