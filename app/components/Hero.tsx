@@ -39,7 +39,7 @@ const Hero = () => {
             <button
               type="button"
               // Used 'flex-1' so it takes up 50% of the space. 
-              // Reduced mobile text to 16px to prevent wrapping.
+
               className="flex-1 md:flex-none md:w-36 h-14 text-[16px] md:text-[18px] text-center font-semibold text-white bg-[#D62062] rounded-sm whitespace-nowrap"
             >
               Join us now
@@ -47,7 +47,7 @@ const Hero = () => {
 
             <button
               type="button"
-              // Used 'flex-1' so it takes up 50% of the space.
+
               className="flex-1 md:flex-none md:w-36 h-14 text-[16px] md:text-[18px] text-center font-semibold bg-white text-[#D62062] rounded-sm"
             >
               Donate
