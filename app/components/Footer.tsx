@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Facebook, Instagram, Send } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white pt-12  md:pb-0">
+    <footer className="w-full bg-white pt-12  ">
       {/* Footer Container */}
       <div className="bg-[#181818] text-white rounded-t-[40px] md:rounded-t-[60px] px-6 py-12 md:px-12 md:py-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
@@ -132,7 +132,7 @@ const Footer = () => {
 
           {/* --- Bottom Copyright Bar --- */}
           {/* Added pb-8 to ensure content isn't cut off on mobile screens */}
-          <div className=" pt-0 md:pt-4 pb-8 md:pb-0 text-center text-white text-[16px] leading-6 flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8">
+          <div className=" pt-0 md:pt-4   text-center text-white text-[16px] leading-6 flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8">
             <p>© Charity 128. All Rights Reserved 2025.</p>
             <Link href="#" className="text-white hover:text-[#D62062] transition-colors block">
               Licensing
