@@ -98,7 +98,7 @@ const BecomeMember = () => {
 <div className="h-[400px] md:h-[500px] flex items-center justify-center gap-6 mt-10 lg:mt-0">
   
   {/* Left Image (Member 3 based on your previous description) */}
-  <div className="hidden lg:block relative w-[150px] h-[295px] flex-shrink-0">
+  <div className="hidden lg:block relative w-[150px] h-[295px] shrink-0">
     <Image 
       src={member_2} 
       alt="Member Left" 
@@ -108,7 +108,7 @@ const BecomeMember = () => {
   </div>
 
   {/* Middle Image (Main Focus) */}
-  <div className="relative w-[241px] h-[389px] flex-shrink-0 z-20 shadow-2xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-500">
+  <div className="relative w-[241px] h-[389px] shrink-0 z-20 shadow-2xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-500">
     <Image 
       src={member_1} 
       alt="Main Member Focus" 
@@ -118,7 +118,7 @@ const BecomeMember = () => {
   </div>
 
   {/* Right Image (Member 2) */}
-  <div className="hidden lg:block relative w-[150px] h-[295px] flex-shrink-0">
+  <div className="hidden lg:block relative w-[150px] h-[295px] shrink-0">
     <Image 
       src={member_3} 
       alt="Member Right" 
@@ -166,7 +166,7 @@ const BecomeMember = () => {
               </ul>
 
               {/* Button */}
-              <button className="w-full bg-[#131313] hover:bg-gray-800 text-white font-medium py-3 px-4 rounded-sm flex items-center justify-center transition-colors">
+              <button className="w-full bg-[#131313]  text-[16px] font-semibold text-white py-3 px-4 rounded-sm flex items-center justify-center transition-colors">
                 Become Our Member
                 <ChevronRight className="ml-2 w-5 h-5" />
               </button>
