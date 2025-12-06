@@ -49,10 +49,10 @@ const BecomeMember = () => {
         
         {/* Main Header */}
         <div className="text-center mb-16">
-          <h3 className="text-[#D62062] font-bold text-[32px] uppercase mb-3">
+          <h3 className="text-[#D62062] font-bold text-[28px] md:text-[32px] uppercase mb-3">
             BECOME A MEMBER
           </h3>
-          <h2 className="text-[28px] md:text-4xl font-medium text-gray-900 leading-tight">
+          <h2 className="text-[24px] md:text-4xl font-medium text-gray-900 leading-tight">
             Join us in empowering lives and shaping futures.
           </h2>
         </div>
@@ -69,7 +69,7 @@ const BecomeMember = () => {
         </h3>
       </div>
 
-      <p className="text-gray-700 text-[18px] font-normal leading-6 w-full max-w-[439px]">
+      <p className="text-gray-700 text-[18px] font-normal hidden md:block leading-6 w-full max-w-[439px]">
         As a member, you gain access to exclusive
         resources, career support, and a community
         committed to making a difference. Choose a

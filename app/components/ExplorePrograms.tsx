@@ -91,7 +91,7 @@ const ExplorePrograms = () => {
             </div>
 
             {/* Main Image */}
-            <div className="relative z-10 w-full max-w-[500px] h-[350px] overflow-hidden shadow-md rounded-sm">
+            <div className="relative hidden md:block z-10 w-full max-w-[500px] h-[350px] overflow-hidden shadow-md rounded-sm">
               <Image 
                 src={program} 
                 alt="People learning at computers"
@@ -112,12 +112,12 @@ const ExplorePrograms = () => {
            ========================================= */}
         
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 -mt-44 px-8 md:mt-0 gap-4 md:gap-8">
           {programCards.map((card, index) => (
-            <div key={index} className="bg-white rounded-xl mt-12 overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <div key={index} className="bg-white rounded-xl mt-12  overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
               
               {/* Card Header (Dark Pink) */}
-              <div className="bg-[#D62062] py-6 px-4 text-center">
+              <div className="bg-[#D62062] py-6 px-0 md:px-4 text-center">
                 <h3 className="text-white text-xl font-bold">
                   {card.title}
                 </h3>
